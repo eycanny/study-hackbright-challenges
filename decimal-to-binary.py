@@ -5,7 +5,7 @@ def dec2bin(num):
     
     binary = ""
 
-    i = 7
+    i = int(math.log2(num))
 
     while i > -1:
         if num >= 2 ** i:
